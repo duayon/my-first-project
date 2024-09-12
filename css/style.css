@@ -1,0 +1,103 @@
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+    letter-spacing: 1px;
+    color: white;
+
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    text-align: center;
+
+ word-spacing: 3px;
+ /* margin-bottom: 10px; */
+ 
+}
+h2{
+    padding: 10px;
+}
+body{
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #0191b4;
+    font-weight: 700;
+    text-transform:capitalize ;
+    border-radius: 20px;
+
+}
+button:hover{
+    background-color: #f8d90f;
+
+}
+input{
+    background-color: #434242;
+    border-radius: 5px;
+}
+input,button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+
+}
+input:focus{
+  outline-style: none;
+  outline: 2px solid #f8d90f ;
+}
+.total-price input {
+    width:20%;
+    margin-right: 5px;
+}
+.total-price{
+    display: flex;
+    margin-top: 5px;
+
+
+}
+.container{
+    width: 80%;
+  
+
+}
+.total{
+    padding: 8px;
+    background-color: #f8d90f;
+    margin:  0 10px;
+    border-radius: 5px;
+}
+inputs{
+    margin-top: 10px;
+}
+
+.srch {
+    width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.srch button{
+    width: 43%;
+}
+table{
+    width: 100%;
+}
+table th{
+    width: 10%;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px;
+}
+td{
+    width: 10%;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+#calc{
+    width: 5%;
+}

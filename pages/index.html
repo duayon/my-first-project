@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUDS</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>CRUDS</h2>
+            <p>PRODUCT MANAGEMENT SYSTEM</p>
+        </header>
+        <div class="inputs">
+            <input type="text" id="title-product" placeholder="title">
+            <div class="total-price">
+<input type="number" id="price" placeholder="price">
+<input type="number" id="taxes" placeholder="taxes">
+<input type="number" id="ads" placeholder="ads">
+<input type="number" id="discount" placeholder="discount">
+
+<div class="total">
+    <p style="text-align: center;">Total <span id="result">0</span></p> 
+</div>
+<button id="calc">OK</button>
+            </div>
+            <input type="number" id="count" placeholder="count">
+            <input type="text" id="category" placeholder="category">
+        
+            <button id="create">create</button>
+            <button  id="update-btn" class="hide " >update</button>
+
+            <input type="text" id="search" placeholder="search">
+            <div class="srch">
+                <button id="by-title">search by title</button>
+                <button id="by-category">search by category</button>
+            </div>
+            <button id="delete-all">delete all</button>
+        </div>
+        <div class="output">
+            <table >
+                <tr>
+                    <th id="table-id">id</th>
+                    <th id="table-title">title</th>
+                    <th id="table-price">price</th>
+                    <th id="table-taxes">taxes</th>
+                    <th id="table-ads">ads</th>
+                    <th id="table-discount">discount</th>
+                    <th id="table-total">total</th>
+                    <th id="table-category">category</th>
+                    <th id="table-update">update</th>
+                    <th id="table-delete">delete</th>
+                </tr>
+             <tbody id="tbody">
+                
+             </tbody>
+                
+                  
+                
+            </table>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>
